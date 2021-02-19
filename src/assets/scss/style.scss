@@ -1,5 +1,10 @@
-body {
-    background-color: black;
-    font-size: 21px;
-    color: white;
-}
+@import "utils/vars";
+@import "utils/mixins";
+@import "vendors/normalize";
+
+@import "base/common";
+@import "base/container";
+@import "base/fonts";
+
+/* Blocks */
+// @import "blocks/";
